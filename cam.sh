@@ -7,7 +7,7 @@ echo
 
 echo "Starting picture process"
 echo
-fswebcam -d /dev/video0 -r 640x480 --no-banner /home/pi/webcam/image.jpg
+fswebcam -d /dev/video0 -r 640x480 --no-banner image.jpg
 
 echo
 echo "Starting Plate Detection"
