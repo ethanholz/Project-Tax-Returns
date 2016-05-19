@@ -1,5 +1,5 @@
 from openalpr import Alpr
-import csv
+
 
 plate_db = open('plates.txt').read()
 
